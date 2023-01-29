@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "engines": {
+    "node": "19.5.0",
+    "npm": "9.3.1"
+  },
+  "description": "Build Simple HTTP Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiq4449/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Joshua Quinones",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jiq4449/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/jiq4449/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
